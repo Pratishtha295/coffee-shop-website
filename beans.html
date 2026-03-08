@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Urban Brew | Coffee Beans</title>
+  <meta name="description" content="Learn about Urban Brew's hand-selected Arabica beans, roasting, and grinding process." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWix+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8RykW5P4J7l+Yd2Pz2xYt+QYF9QY2mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary Navigation">
+      <a class="logo" href="index.html">Urban <span>Brew</span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="beans.html" class="active">Coffee Beans</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main container">
+    <section class="section-heading page-title">
+      <h1>Our Coffee Bean Journey</h1>
+      <p>From sustainable farms to your cup, every step is crafted for excellence.</p>
+    </section>
+
+    <section class="split-layout bean-intro section">
+      <img src="https://images.unsplash.com/photo-1459755486867-b55449bb39ff?auto=format&fit=crop&w=1000&q=80" alt="Premium Arabica coffee beans" />
+      <div>
+        <h2>Premium Hand-Selected Arabica Beans</h2>
+        <p>Urban Brew uses premium hand-selected Arabica coffee beans sourced from top coffee-growing regions. Every bean is selected for quality, aroma, and character to deliver a truly refined cup.</p>
+      </div>
+    </section>
+
+    <section class="process-grid section">
+      <article class="process-card">
+        <i class="fa-solid fa-seedling bean-icon" aria-hidden="true"></i>
+        <h3>Sustainably Sourced</h3>
+        <p>Beans are carefully sourced from responsible farms that focus on ethical cultivation and long-term soil health.</p>
+      </article>
+      <article class="process-card">
+        <i class="fa-solid fa-fire-flame-curved bean-icon" aria-hidden="true"></i>
+        <h3>Slow Roasted</h3>
+        <p>Our beans are slow roasted to unlock deep aroma and flavor, creating complexity in every roast profile.</p>
+      </article>
+      <article class="process-card">
+        <i class="fa-solid fa-mortar-pestle bean-icon" aria-hidden="true"></i>
+        <h3>Freshly Ground</h3>
+        <p>Every batch is freshly ground before brewing to ensure maximum richness, smooth texture, and bold taste.</p>
+      </article>
+    </section>
+
+    <section class="section roast-visuals">
+      <div class="cards-grid">
+        <article class="card"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1000&q=80" alt="Roasting process" /><div class="card-content"><h3>Roasting Process</h3><p>Measured heat progression develops a rich aroma and balanced body.</p></div></article>
+        <article class="card"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1000&q=80" alt="Grinding process" /><div class="card-content"><h3>Grinding Process</h3><p>Ground just before brewing to preserve oils and freshness for full-bodied flavor.</p></div></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><a class="logo" href="index.html">Urban <span>Brew</span></a><p>Crafting exceptional coffee experiences, one cup at a time.</p></div>
+      <div><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="beans.html">Coffee Beans</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h3>Follow Us</h3><div class="social-icons"><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a></div></div>
+    </div>
+    <p class="copyright">© 2026 Urban Brew Cafe</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
